@@ -88,5 +88,5 @@ public class FreeText extends AppCompatTextView {
         this.stroke_corner_radius = stroke_corner_radius;
         setDrawableParams();
     }
-    
+
 }
