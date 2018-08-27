@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <cn.hg.freetext.FreeText
+        android:layout_gravity="center_horizontal"
+        app:strokeWidth="1.5dp"
+        app:strokeColor="@color/colorAccent"
+        android:text="  带边框  "
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <cn.hg.freetext.FreeText
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:strokeWidth="1.5dp"
+        app:strokeColor="@color/colorPrimary"
+        android:text="边框带圆角"
+        app:strokeCornerRadius="4dp"
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <cn.hg.freetext.FreeText
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:strokeWidth="1.5dp"
+        app:strokeColor="#00aeae"
+        android:text="侧边全圆角"
+        app:strokeCornerRadius="180dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <cn.hg.freetext.FreeText
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:strokeWidth="1.5dp"
+        app:strokeColor="#ff2d2d"
+        app:solid="#ff2d2d"
+        android:textColor="@android:color/white"
+        android:text="带背景色"
+        app:strokeCornerRadius="180dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

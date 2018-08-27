@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FreeText">    //name属性为控件类名
+
+        <attr name="strokeColor" format="color"/>  //attr标签表示控件特有的属性,format表示属性类型
+
+        <attr name="strokeWidth" format="dimension"/>
+
+        <attr name="strokeCornerRadius" format="dimension"/>
+
+        <attr name="solid" format="color"/>
+
+        <attr name="rippleClick" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
