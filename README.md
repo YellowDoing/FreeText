@@ -10,6 +10,6 @@ xml属性
 ---|---
 strokeColor | 边框色
 strokeWidth | 边框线宽度
-strokeCornerRadius | 边框圆角
+strokeCornerRadius | 边框圆角度
 solid | 背景色
 
