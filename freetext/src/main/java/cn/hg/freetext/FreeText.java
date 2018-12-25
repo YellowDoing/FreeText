@@ -14,9 +14,7 @@ import android.util.Log;
 
 public class FreeText extends AppCompatTextView {
 
-    private final String TAG = "cn.hg.FreeText";
     protected GradientDrawable drawable;
-
     protected int stroke_color;
     protected float stroke_width;
     protected float stroke_corner_radius;
